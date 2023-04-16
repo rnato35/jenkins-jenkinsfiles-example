@@ -9,6 +9,6 @@ pipeline_docker_k8s_deploy {
 
     // EKS vars
     eksClusterName = 'rnato35-test-cluster'
-    eksManifestFile = '/eksManifest.yaml'
+    eksManifestFile = 'eksManifest.yaml'
 
 }
